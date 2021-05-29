@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(178, 238, 248);
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+}
+#show{
+    background-color:white;
+    margin: 20px 40px 20px 40px;
+    padding: 15px;
+    border-radius: 5px;
+}
+label{
+    color:rgb(109, 109, 179);
+    font-size: 20px;
+    font-family: Verdana;
+}
+input{
+    width:30%;
+    border-radius: 5px;
+    border: 2px rgb(199, 199, 199);
+    padding:5px;
+    border-style: ridge;
+    height: 35px;
+}
+button{
+    background-color: rgb(118, 118, 246);
+    color:white;
+    padding:8px;
+    border-radius: 5px;
+    border:none;
+}
+#now{
+    background-color: white;
+    margin: 20px 40px 20px 40px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: top;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#output {
+    box-shadow: 0 4px 8px 0 peachpuff;
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    background-color: rgb(253, 247, 236);
+    border: 2px solid rgb(236, 183, 137);
+    float: left;
+	justify-content: space-around;
+    padding-left: 10px;
+    line-height: 1.6;
+}
+#map{
+    box-shadow: 0 4px 8px 0 peachpuff;
+    transition: 0.3s;
+    height: 300px;
+    width: 60%;
+    float: right;
+}
+#next{
+    background-color: white;
+    margin: 20px 40px 20px 40px;
+    padding: 15px;
+    border-radius: 5px;
+}
+h1{
+    color: rgb(118, 118, 246);
+}
+#outputPrognoza{
+    box-shadow: 0 4px 8px 0 white;
+    transition: 0.3s;
+    width: 15%;
+    border-radius: 5px;
+    background-color: white;
+}
+#next {
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+.prognozaHours {
+	border: 2px solid rgb(236, 183, 137);
+	margin: 10px;
+	padding: 10px;
+    box-shadow: 0 4px 8px 0 rgb(236, 183, 137);
+    background-color: cornsilk;
+    border-radius: 5px;
+}
+#image{
+    width: 30px;
+    height: 40px;
+}
+.date{
+    margin-left:65px;
+}
+.temp{
+    margin-left:65px;
+}
+.desc{
+    margin:20px;
+    color: red;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Homework 11 - Weather App</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div id="show">
+				<label for="city">Introduceti numele unei localitati:</label>
+				<input type="text" id = "oras">
+				<button id="vremea">Afiseaza vremea</button>
+				<button id="prognoza">Afiseaza prognoza</button>
+			</div>
+			<div id="now">
+				<h1>Vremea acum</h1>
+				<div id="output"></div>
+				<div id="map"></div>
+			</div>
+			<div id="next">
+				<h1>Vremea in urmatoarele zile</h1><br>
+				<div id="outputPrognoza"></div>
+			</div>
+		</div>
+		
+		<script src="app.js"></script>
+	</body>
+</html>
